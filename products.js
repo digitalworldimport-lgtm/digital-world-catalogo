@@ -14,8 +14,8 @@ products:[
 {id:"DW-REA-004",name:"Muñeca realista · Vestido azul",category:"Muñecas realistas no interactivas",price:70,image:"https://drive.google.com/thumbnail?id=1UrtBc9r_pzj13BL4jif6w-MndaVBnyHY&sz=w1200",delivery:"Delivery gratis solo en Maracaibo",active:true},
 {id:"DW-REA-005",name:"Muñeca realista · Conejito gris",category:"Muñecas realistas no interactivas",price:70,image:"https://drive.google.com/thumbnail?id=1Alq2xvVGS6v77itTRDrm3a0UDL8It-iX&sz=w1200",delivery:"Delivery gratis solo en Maracaibo",active:true},
 {id:"DW-REA-006",name:"Muñeca realista · Conjunto oso marrón",category:"Muñecas realistas no interactivas",price:70,image:"https://drive.google.com/thumbnail?id=13Vguwllj793hgg7EFmMsmHwJ-jZHIQrw&sz=w1200",delivery:"Delivery gratis solo en Maracaibo",active:true},
-{id:"DW-JUG-003",name:"Set de maquillaje infantil Unicornio",category:"Otros juguetes",price:15,active:false},
-{id:"DW-JUG-004",name:"Coche para muñeca",category:"Otros juguetes",price:25,active:false},
-{id:"DW-JUG-005",name:"Carpa infantil rosada para niñas",category:"Otros juguetes",price:25,active:false},
-{id:"DW-JUG-006",name:"Cocinita infantil Spraying Kitchen",category:"Otros juguetes",price:35,active:false}
+{id:"DW-JUG-003",name:"Set de maquillaje infantil Unicornio · 42 piezas",category:"Otros juguetes",price:15,image:"https://drive.google.com/thumbnail?id=1HOC3Jf76IYJyEo7Di3EXDZk_yAZnmnWk&sz=w1200",active:true},
+{id:"DW-JUG-004",name:"Coche para muñeca",category:"Otros juguetes",price:25,image:"https://drive.google.com/thumbnail?id=1UyldINQmrrLNPFPc53JcVGz2CDasJKKR&sz=w1200",active:true},
+{id:"DW-JUG-005",name:"Carpa infantil rosada para niñas",category:"Otros juguetes",price:25,image:"https://drive.google.com/thumbnail?id=17tFhqKY75U3fsWJ43-ioiD4EqRFdyqQm&sz=w1200",active:true},
+{id:"DW-JUG-006",name:"Cocinita infantil Spraying Kitchen",category:"Otros juguetes",price:35,image:"https://drive.google.com/thumbnail?id=1BxBZ-1u-WJaueBNaW7G2Bl-09Bvvs8YF&sz=w1200",active:true}
 ]};
