@@ -48,7 +48,7 @@ def main():
         path = "assets/" + f.relative_to(args.carpeta).as_posix()
         data = f.read_bytes()
         # SHA de objeto Git (no confundir con SHA256).
-        git_sha = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+        git_sha = hashlib.sha1(b"blob " + str(len(data)).encode() + bytes([0]) + data).hexdigest()
         if existing.get(path) == git_sha:
             print("YA EXISTE", path)
         elif path in existing:
