@@ -23,3 +23,15 @@ export async function onRequestPut({request,env}){
  return r.meta.changes===1?reply({ok:true}):reply({error:"Producto no encontrado"},404);
  }catch{return reply({error:"No se pudo guardar"},400)}
 }
+
+export async function onRequestPost({request,env}){
+ if(!await authorized(request,env))return reply({error:"Acceso no autorizado"},401);
+ if(!request.headers.get("Content-Type")?.startsWith("application/json"))return reply({error:"Formato inválido"},415);
+ try{
+ const raw=await request.text();if(raw.length>4096)return reply({error:"Solicitud demasiado grande"},413);
+ const p=JSON.parse(raw);
+ if(!p||typeof p.product_id!=="string"||!/^DW-(SON|JUG|REB|REA)-[0-9]{3,6}$/.test(p.product_id)||!(p.regular_cents===null||(Number.isSafeInteger(p.regular_cents)&&p.regular_cents>=0&&p.regular_cents<=100000000)))return reply({error:"Datos inválidos"},400);
+ const r=await env.CATALOG_DB.prepare("INSERT INTO catalog_prices(product_id,regular_cents,active,promo_active) VALUES(?,?,0,0) ON CONFLICT(product_id) DO NOTHING").bind(p.product_id,p.regular_cents).run();
+ return r.meta.changes===1?reply({ok:true,active:0},201):reply({error:"Código existente; no se modificó"},409);
+ }catch{return reply({error:"No se pudo crear el registro"},400)}
+}
