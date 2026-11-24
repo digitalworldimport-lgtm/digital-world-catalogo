@@ -6,7 +6,7 @@ function priceHTML(p){return hasPromo(p)?'<span class="promoLabel">¡PRECIO PROM
 function shortCode(p){return p.id.replace(/^DW-SON-/,"S").replace(/^DW-JUG-/,"J").replace(/^DW-REB-/,"M").replace(/^DW-REA-/,"M1")}
 function models(p){return CATALOG.products.filter(x=>!x.collection&&x.category===p.category&&x.active!==false)}
 function gallery(p){return p.collection?[p.image,...models(p).map(x=>x.image).filter(x=>x!==p.image)]:p.images||[p.image]}
-function collectionPrice(p){const prices=models(p).filter(hasPrice).map(x=>currentPrice(x));return prices.length?money(Math.min(...prices)):"Precio por consultar"}
+function collectionPrice(p){const items=models(p).filter(hasPrice);if(!items.length)return "Precio por consultar";const first=items[0];if(items.every(x=>x.price===first.price&&hasPromo(x)===hasPromo(first)&&currentPrice(x)===currentPrice(first)))return priceHTML(first);return "Desde "+money(Math.min(...items.map(currentPrice)))}
 function consult(p){return "https://wa.me/"+PHONE+"?text="+encodeURIComponent("Hola, quisiera consultar por "+p.name+" ("+shortCode(p)+")."+(hasPrice(p)?" Precio: "+money(currentPrice(p)):""))}
 const cartIcon='<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 3h3l3 13h12l2-9H6"/><circle cx="9" cy="21" r="1"/><circle cx="19" cy="21" r="1"/></svg>';
 function money(n){return "$"+Number(n).toFixed(2)}
