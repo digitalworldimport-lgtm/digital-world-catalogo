@@ -1,0 +1,250 @@
+{
+  "status": "preparacion-no-publicar",
+  "products": [
+    {
+      "name": "DANOM DA-L364F",
+      "category": "Reproductores",
+      "images": [
+        "assets/sonido/DANOM-DA-L364F-01.webp",
+        "assets/sonido/DANOM-DA-L364F-02.webp",
+        "assets/sonido/DANOM-DA-L364F-03.webp",
+        "assets/sonido/DANOM-DA-L364F-04.webp"
+      ]
+    },
+    {
+      "name": "AMAX Android 9",
+      "category": "Reproductores",
+      "images": [
+        "assets/sonido/01_AMAX_Android_9.webp",
+        "assets/sonido/02_AMAX_Android_9.webp",
+        "assets/sonido/03_AMAX_Android_9.webp",
+        "assets/sonido/04_AMAX_Android_9.webp"
+      ]
+    },
+    {
+      "name": "DANOM DA-L1HST6",
+      "category": "Reproductores",
+      "images": [
+        "assets/sonido/DANOM_DA-L1HST6_01_Portada.webp",
+        "assets/sonido/DANOM_DA-L1HST6_02_Frontal.webp",
+        "assets/sonido/DANOM_DA-L1HST6_03_Detalles.webp",
+        "assets/sonido/DANOM_DA-L1HST6_04_Contacto.webp"
+      ]
+    },
+    {
+      "name": "GAMA GM6311",
+      "category": "Reproductores",
+      "images": [
+        "assets/sonido/01-GAMA-GM6311-Portada.webp",
+        "assets/sonido/02-GAMA-GM6311-Subwoofer.webp",
+        "assets/sonido/03-GAMA-GM6311-Conectividad.webp",
+        "assets/sonido/04-GAMA-GM6311-Control.webp"
+      ]
+    },
+    {
+      "name": "Pioneer DMH-ZF9350BT",
+      "category": "Reproductores",
+      "images": [
+        "assets/sonido/Pioneer_DMH-ZF9350BT_Imagen_1.webp",
+        "assets/sonido/Pioneer_DMH-ZF9350BT_Imagen_2.webp",
+        "assets/sonido/Pioneer_DMH-ZF9350BT_Imagen_3.webp",
+        "assets/sonido/Pioneer_DMH-ZF9350BT_Imagen_4.webp",
+        "assets/sonido/Pioneer_DMH-ZF9350BT_Imagen_5.webp"
+      ]
+    },
+    {
+      "name": "SounDigital 5000.1 EVO5",
+      "category": "Amplificadores",
+      "images": [
+        "assets/sonido/SounDigital-5000.1-EVO5-01.webp",
+        "assets/sonido/SounDigital-5000.1-EVO5-02.webp",
+        "assets/sonido/SounDigital-5000.1-EVO5-03.webp",
+        "assets/sonido/SounDigital-5000.1-EVO5-04.webp"
+      ]
+    },
+    {
+      "name": "SounDigital 1200.4 EVO5 2Ohm",
+      "category": "Amplificadores",
+      "images": [
+        "assets/sonido/SounDigital-1200-4-EVO5-01-Corregida.webp",
+        "assets/sonido/SounDigital-1200-4-EVO5-02.webp",
+        "assets/sonido/SounDigital-1200-4-EVO5-03.webp",
+        "assets/sonido/SounDigital-1200-4-EVO5-04.webp"
+      ]
+    },
+    {
+      "name": "STAR Audio MS-M10PRO",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/STAR_Audio_MS-M10PRO_01.webp",
+        "assets/sonido/STAR_Audio_MS-M10PRO_02.webp",
+        "assets/sonido/STAR_Audio_MS-M10PRO_03.webp",
+        "assets/sonido/STAR_Audio_MS-M10PRO_04.webp"
+      ]
+    },
+    {
+      "name": "SCORPION Triaxiales 6x9",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/SCORPION_Triaxiales_6x9_01.webp",
+        "assets/sonido/SCORPION_Triaxiales_6x9_02.webp",
+        "assets/sonido/SCORPION_Triaxiales_6x9_03.webp",
+        "assets/sonido/SCORPION_Triaxiales_6x9_04.webp"
+      ]
+    },
+    {
+      "name": "STAR Audio MS-6",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/STAR_Audio_MS-6_01_Portada_Corregida.webp",
+        "assets/sonido/STAR_Audio_MS-6_02_Frontal.webp",
+        "assets/sonido/STAR_Audio_MS-6_03_Detalles.webp",
+        "assets/sonido/STAR_Audio_MS-6_04_Contacto.webp"
+      ]
+    },
+    {
+      "name": "SCORPIONS SCP-651",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/SCORPIONS-SCP-651-01.webp",
+        "assets/sonido/SCORPIONS-SCP-651-02.webp",
+        "assets/sonido/SCORPIONS-SCP-651-03.webp",
+        "assets/sonido/SCORPIONS-SCP-651-04.webp"
+      ]
+    },
+    {
+      "name": "Pioneer TS-A1095S",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/Pioneer-TS-A1095S-01.webp",
+        "assets/sonido/Pioneer-TS-A1095S-02.webp",
+        "assets/sonido/Pioneer-TS-A1095S-03.webp",
+        "assets/sonido/Pioneer-TS-A1095S-04.webp"
+      ]
+    },
+    {
+      "name": "STAR Audio MS-8PE21PRO",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/2026-11-06_STAR-Audio_Open-Show_01-portada.webp",
+        "assets/sonido/2026-11-06_STAR-Audio_Open-Show_02-medios.webp",
+        "assets/sonido/2026-11-06_STAR-Audio_Open-Show_03-componentes.webp",
+        "assets/sonido/2026-11-06_STAR-Audio_Open-Show_04-combo.webp"
+      ]
+    },
+    {
+      "name": "DANOM DA-M3FL12",
+      "category": "Cornetas y medios",
+      "images": [
+        "assets/sonido/DANOM_DA-M3FL12_Imagen_1.webp",
+        "assets/sonido/DANOM_DA-M3FL12_Imagen_2.webp",
+        "assets/sonido/DANOM_DA-M3FL12_Imagen_3.webp",
+        "assets/sonido/DANOM_DA-M3FL12_Imagen_4.webp"
+      ]
+    },
+    {
+      "name": "Combo US230 STAR MS-BA-6",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-01.webp",
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-02.webp",
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-03.webp",
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-04.webp",
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-05.webp",
+        "assets/sonido/Combo-US230-STAR-MS-BA-6-06.webp"
+      ]
+    },
+    {
+      "name": "POWER SU PS-M60 4 Medios 2 Tweeters",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/POWER-SU-PS-M60-01.webp",
+        "assets/sonido/POWER-SU-PS-M60-02.webp",
+        "assets/sonido/POWER-SU-PS-M60-03.webp",
+        "assets/sonido/POWER-SU-PS-M60-04.webp"
+      ]
+    },
+    {
+      "name": "Combo Pioneer Reproductor Cornetas 6x9",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/01-Pioneer-Combo.webp",
+        "assets/sonido/02-Pioneer-Combo.webp",
+        "assets/sonido/03-Pioneer-Combo.webp",
+        "assets/sonido/04-Pioneer-Combo.webp"
+      ]
+    },
+    {
+      "name": "Combo Pioneer Reproductor Cornetas 6",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/01-Pioneer-Combo-6.webp",
+        "assets/sonido/02-Pioneer-Combo-6.webp",
+        "assets/sonido/03-Pioneer-Combo-6.webp",
+        "assets/sonido/04-Pioneer-Combo-6.webp"
+      ]
+    },
+    {
+      "name": "Combo Pioneer Reproductor 4 Cornetas",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/01-Pioneer-Combo-4.webp",
+        "assets/sonido/02-Pioneer-Combo-4.webp",
+        "assets/sonido/03-Pioneer-Combo-4.webp",
+        "assets/sonido/04-Pioneer-Combo-4.webp",
+        "assets/sonido/05-Pioneer-Combo-4.webp"
+      ]
+    },
+    {
+      "name": "Combo STAR MS-M8 Open Show",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/01-STAR-Audio-MS-M8-Combo.webp",
+        "assets/sonido/02-STAR-Audio-MS-M8-Combo.webp",
+        "assets/sonido/03-STAR-Audio-MS-M8-Combo.webp",
+        "assets/sonido/04-STAR-Audio-MS-M8-Combo.webp"
+      ]
+    },
+    {
+      "name": "Combo STAR MS-BA-6 Soway BA-400.4 Bajo Activo",
+      "category": "Combos de sonido",
+      "images": [
+        "assets/sonido/01_Portada_Sonido_Interno_Potente_1080x1440.webp",
+        "assets/sonido/02_Cuatro_Medios_STAR_AUDIO_MS-BA-6_1080x1440.webp",
+        "assets/sonido/03_Dos_Tweeters_SOWAY_1080x1440.webp",
+        "assets/sonido/04_Bajo_Activo_10_Pulgadas_Kit_Cable_1080x1440.webp",
+        "assets/sonido/05_Amplificador_STAR_AUDIO_BA-400.4_1080x1440.webp"
+      ]
+    },
+    {
+      "name": "DANOM ELITE CR6 DA-M2CR6",
+      "category": "Procesadores y accesorios",
+      "images": [
+        "assets/sonido/DANOM_Elite_CR6_Imagen_1.webp",
+        "assets/sonido/DANOM_Elite_CR6_Imagen_2.webp",
+        "assets/sonido/DANOM_Elite_CR6_Imagen_3.webp",
+        "assets/sonido/DANOM_Elite_CR6_Imagen_4.webp"
+      ]
+    },
+    {
+      "name": "KUERL Bajo 10",
+      "category": "Bajos",
+      "images": [
+        "assets/sonido/KUERL_Bajo_10_01.webp",
+        "assets/sonido/KUERL_Bajo_10_02.webp",
+        "assets/sonido/KUERL_Bajo_10_03.webp",
+        "assets/sonido/KUERL_Bajo_10_04.webp"
+      ]
+    },
+    {
+      "name": "Pioneer TS-550AL",
+      "category": "Bajos",
+      "images": [
+        "assets/sonido/Pioneer-TS-550AL-01.webp",
+        "assets/sonido/Pioneer-TS-550AL-02.webp",
+        "assets/sonido/Pioneer-TS-550AL-03.webp",
+        "assets/sonido/Pioneer-TS-550AL-04.webp"
+      ]
+    }
+  ]
+}
