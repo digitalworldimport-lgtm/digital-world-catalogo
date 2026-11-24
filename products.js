@@ -1,5 +1,6 @@
 const CATALOG = {
-categories:["Todos","Muñecas Reborn interactivas","Muñecas realistas no interactivas","Otros juguetes"],
+categories:["Todos","Muñecas Reborn interactivas","Muñecas realistas no interactivas","Otros juguetes","Sonido para carros"],
+subcategories:{"Sonido para carros":["Reproductores","Cornetas y medios","Amplificadores","Bajos"]},
 products:[
 {id:"PORT-INT",name:"Muñecas Reborn interactivas",category:"Muñecas Reborn interactivas",image:"assets/Portada_Munecas_Rigo_Envio_Gratis.png",collection:true,active:true},
 {id:"DW-REB-001",name:"Muñeca Reborn interactiva · Modelo 1",category:"Muñecas Reborn interactivas",price:80,image:"assets/Munecas_Rigo_Imagen_1.png",delivery:"Delivery gratis solo en Maracaibo",active:true},
