@@ -28,4 +28,16 @@ function renderCart(){saveCart();$("#count").textContent=cart.reduce((a,x)=>a+x.
 function toggle(v){$("#drawer").classList.toggle("open",v);$("#shade").classList.toggle("open",v)}
 $("#cartBtn").onclick=()=>toggle(true);$("#close").onclick=()=>toggle(false);$("#shade").onclick=()=>toggle(false);$("#search").oninput=render;
 $("#whatsapp").onclick=()=>{if(!cart.length)return;let total=cart.reduce((a,x)=>a+(hasPrice(x)?currentPrice(x)*x.qty:0),0);let lines=cart.map(x=>`• ${x.qty} x ${x.name} [${shortCode(x)}] — ${hasPrice(x)?money(currentPrice(x)*x.qty):"Por consultar"}${x.delivery?" — "+x.delivery:""}`).join("\n");let msg=`Hola Digital World Import. Quiero consultar disponibilidad de:\n\n${lines}\n\nTotal: ${totalText()}`;location.href=`https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`};
-$("#promoOnly").onchange=render;$("#zoomClose").onclick=()=>$("#zoomDialog").close();$("#zoomDialog").onclick=e=>{if(e.target===$("#zoomDialog"))$("#zoomDialog").close()};cart=restoreCart();renderCats();render();renderCart();
+$("#promoOnly").onchange=render;$("#zoomClose").onclick=()=>$("#zoomDialog").close();$("#zoomDialog").onclick=e=>{if(e.target===$("#zoomDialog"))$("#zoomDialog").close()};async function initialize(){
+ try{
+ const response=await fetch("/api/catalog-prices",{cache:"no-store",signal:AbortSignal.timeout(8000)});
+ if(!response.ok)throw Error("price service");
+ const data=await response.json();
+ if(!Array.isArray(data.products))throw Error("invalid data");
+ const rows=new Map(data.products.map(r=>[r.product_id,r]));
+ for(const p of CATALOG.products){if(p.collection)continue;const r=rows.get(p.id);if(!r){p.active=false;continue}p.price=r.regular_cents===null?null:r.regular_cents/100;p.promoPrice=r.promo_cents===null?null:r.promo_cents/100;p.promoActive=r.promo_active===1;p.active=r.active===1}
+ for(const p of CATALOG.products.filter(p=>p.collection))p.active=models(p).length>0;
+ }catch{products.textContent="No se pudo consultar el catálogo actualizado. Recarga la página para intentar nuevamente.";return}
+ cart=restoreCart();renderCats();render();renderCart();
+}
+initialize();
