@@ -28,3 +28,5 @@ footer{background:var(--black);color:#fff;padding:30px max(5vw,20px);display:fle
 /* Carrito naranja directamente sobre encabezado negro */
 .cart{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:transparent;color:var(--orange);border:0;border-radius:7px;min-width:64px;min-height:48px;padding:7px 8px;font-size:27px;line-height:1;font-weight:900}
 .cart #count{font-size:18px;font-weight:900;font-variant-numeric:tabular-nums}
+
+.photo{position:relative}.galleryControls{position:absolute;bottom:8px;left:8px;right:8px;display:flex;align-items:center;justify-content:space-between;gap:8px;color:#222;pointer-events:none}.galleryControls button,.galleryControls span{background:#fff;border:1px solid #ddd;border-radius:8px;padding:6px 12px;pointer-events:auto}.galleryControls button{font-size:20px;cursor:pointer;min-width:40px}.galleryControls span{font-size:12px}
