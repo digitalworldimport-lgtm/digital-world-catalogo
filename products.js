@@ -1,5 +1,5 @@
 const CATALOG = {
-categories:["Todos","Muñecas","Otros juguetes","Sonido para carros"],
+categories:["Todos","Muñecas","Otros juguetes","Sonido para carros","Amplificadores de casa"],
 subcategories:{"Muñecas":["Muñecas Reborn interactivas","Muñecas realistas no interactivas"],"Sonido para carros":["Reproductores","Cornetas y medios","Amplificadores","Bajos","Procesadores y accesorios","Combos de sonido"]},
 products:[
 {id:"PORT-INT",name:"Muñecas Reborn interactivas",category:"Muñecas Reborn interactivas",image:"assets/Portada_Munecas_Rigo_Envio_Gratis.png",collection:true,active:true},
@@ -45,6 +45,6 @@ products:[
 {"id":"DW-SON-022","name":"DANOM ELITE CR6 DA-M2CR6","category":"Procesadores y accesorios","image":"assets/sonido/DANOM_Elite_CR6_Imagen_1.webp","images":["assets/sonido/DANOM_Elite_CR6_Imagen_1.webp","assets/sonido/DANOM_Elite_CR6_Imagen_2.webp","assets/sonido/DANOM_Elite_CR6_Imagen_3.webp","assets/sonido/DANOM_Elite_CR6_Imagen_4.webp"],"active":true},
 {"id":"DW-SON-023","name":"KUERL Bajo 10","category":"Bajos","image":"assets/sonido/KUERL_Bajo_10_01.webp","images":["assets/sonido/KUERL_Bajo_10_01.webp","assets/sonido/KUERL_Bajo_10_02.webp","assets/sonido/KUERL_Bajo_10_03.webp","assets/sonido/KUERL_Bajo_10_04.webp"],"active":true},
 {"id":"DW-SON-024","name":"Pioneer TS-550AL","category":"Cornetas y medios","image":"assets/sonido/Pioneer-TS-550AL-01.webp","images":["assets/sonido/Pioneer-TS-550AL-01.webp","assets/sonido/Pioneer-TS-550AL-02.webp","assets/sonido/Pioneer-TS-550AL-03.webp","assets/sonido/Pioneer-TS-550AL-04.webp"],"active":true},
-{"id":"DW-SON-025","name":"Amplificador estéreo AK45 PRO","category":"Amplificadores","image":"assets/sonido/AK45-PRO-01.webp","images":["assets/sonido/AK45-PRO-01.webp","assets/sonido/AK45-PRO-02.webp","assets/sonido/AK45-PRO-03.webp","assets/sonido/AK45-PRO-04.webp","assets/sonido/AK45-PRO-05.webp"],"active":true}
+{"id":"DW-SON-025","name":"Amplificador estéreo AK45 PRO","category":"Amplificadores de casa","image":"assets/sonido/AK45-PRO-01.webp","images":["assets/sonido/AK45-PRO-01.webp","assets/sonido/AK45-PRO-02.webp","assets/sonido/AK45-PRO-03.webp","assets/sonido/AK45-PRO-04.webp","assets/sonido/AK45-PRO-05.webp"],"active":true}
 ]};
  globalThis.DW_CATALOG_METADATA = CATALOG;
