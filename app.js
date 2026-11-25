@@ -34,6 +34,13 @@ const zoomNav=document.createElement("div");zoomNav.className="galleryControls";
 function updateZoom(){ $("#zoomImage").src=zoomPhotos[zoomIndex];zoomNav.style.display=zoomPhotos.length>1?"flex":"none";zoomNav.querySelector("span").textContent=(zoomIndex+1)+" / "+zoomPhotos.length; }
 function stepZoom(step){if(zoomPhotos.length<2)return;zoomIndex=(zoomIndex+step+zoomPhotos.length)%zoomPhotos.length;updateZoom()}
 zoomNav.firstElementChild.onclick=()=>stepZoom(-1);zoomNav.lastElementChild.onclick=()=>stepZoom(1);
+let zoomTouch=null;
+const zoomImg=$("#zoomImage");zoomImg.style.touchAction="pan-y pinch-zoom";
+zoomImg.addEventListener("touchstart",e=>{zoomTouch=e.touches.length===1?{x:e.touches[0].clientX,y:e.touches[0].clientY}:null},{passive:true});
+zoomImg.addEventListener("touchmove",e=>{if(e.touches.length!==1)zoomTouch=null},{passive:true});
+zoomImg.addEventListener("touchcancel",()=>{zoomTouch=null},{passive:true});
+zoomImg.addEventListener("touchend",e=>{const start=zoomTouch;zoomTouch=null;if(!start||e.touches.length||!e.changedTouches.length)return;const t=e.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;if(Math.abs(dx)>=45&&Math.abs(dx)>Math.abs(dy)*1.5)stepZoom(dx<0?1:-1)},{passive:true});
+
 $("#zoomDialog").addEventListener("keydown",e=>{if(e.key==="ArrowLeft"||e.key==="ArrowRight"){e.preventDefault();stepZoom(e.key==="ArrowLeft"?-1:1)}});
 $("#promoOnly").onchange=render;$("#zoomClose").onclick=()=>$("#zoomDialog").close();$("#zoomDialog").onclick=e=>{if(e.target===$("#zoomDialog"))$("#zoomDialog").close()};async function initialize(){
  try{
