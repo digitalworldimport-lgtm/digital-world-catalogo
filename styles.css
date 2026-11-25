@@ -71,7 +71,7 @@ footer{background:var(--black);color:#fff;padding:30px max(5vw,20px);display:fle
 .subcategories .chip{background:var(--surface);color:var(--ink);border-color:var(--line)}.subcategories .chip.active{background:var(--orange);color:#111}
 @media(max-width:600px){#categories{margin:12px 0 8px;gap:4px}.categoryRail{padding-bottom:4px}.cardBody h3{font-size:13px}.cardBody .category,.promoLabel{font-size:10px}.cardActions .add{font-size:11px;min-height:44px}.waFloat{position:sticky;bottom:8px;right:auto;margin:8px 10px 8px auto;width:48px;height:48px}.waFloat svg{width:28px;height:28px}}
 
-@media(max-width:600px){.waFloat{display:none}}
+@media(max-width:600px){.waFloat{display:grid;position:fixed;right:14px;bottom:14px;margin:0;width:56px;height:56px}.waFloat svg{width:32px;height:32px}}
 
 /* Categorías centradas sin perder desplazamiento horizontal */
 .categoryRail{justify-content:safe center}
