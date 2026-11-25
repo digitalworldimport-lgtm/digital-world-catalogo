@@ -45,7 +45,7 @@ zoomImg.addEventListener("touchend",e=>{const start=zoomTouch;zoomTouch=null;if(
 $("#zoomDialog").addEventListener("keydown",e=>{if(e.key==="ArrowLeft"||e.key==="ArrowRight"){e.preventDefault();stepZoom(e.key==="ArrowLeft"?-1:1)}});
 $("#promoOnly").onchange=render;$("#zoomClose").onclick=()=>$("#zoomDialog").close();$("#zoomDialog").onclick=e=>{if(e.target===$("#zoomDialog"))$("#zoomDialog").close()};async function initialize(){
  try{
- const response=await fetch("/api/catalog-prices",{cache:"no-store",signal:AbortSignal.timeout(8000)});
+ const response=await fetch(location.hostname==="rediseno-instagram.digital-world-catalogo.pages.dev" ? "/preview-prices.json" : "/api/catalog-prices",{cache:"no-store",signal:AbortSignal.timeout(8000)});
  if(!response.ok)throw Error("price service");
  const data=await response.json();
  if(!Array.isArray(data.products))throw Error("invalid data");
