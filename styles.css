@@ -49,3 +49,8 @@ footer{background:var(--black);color:#fff;padding:30px max(5vw,20px);display:fle
 #zoomDialog .galleryControls button:first-child{left:10px}
 #zoomDialog .galleryControls button:last-child{right:10px}
 #zoomDialog .galleryControls span{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);background:#0009;color:white;border:0;border-radius:20px;padding:4px 10px}
+
+/* Flechas ampliadas fuera de la foto en escritorio */
+#zoomDialog .galleryControls button{width:48px;height:48px;font-size:34px;font-weight:600;line-height:1;padding:0;background:#fff;color:#222;box-shadow:0 2px 8px #0004}
+@media(min-width:768px){#zoomImage{max-width:calc(100vw - 156px)}#zoomDialog .galleryControls button:first-child{left:-64px}#zoomDialog .galleryControls button:last-child{right:-64px}}
+@media(max-width:767px){#zoomDialog .galleryControls button{width:44px;height:44px;font-size:30px}#zoomDialog .galleryControls button:first-child{left:6px}#zoomDialog .galleryControls button:last-child{right:6px}}
