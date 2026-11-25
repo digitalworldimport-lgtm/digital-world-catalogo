@@ -46,3 +46,4 @@ products:[
 {"id":"DW-SON-023","name":"KUERL Bajo 10","category":"Bajos","image":"assets/sonido/KUERL_Bajo_10_01.webp","images":["assets/sonido/KUERL_Bajo_10_01.webp","assets/sonido/KUERL_Bajo_10_02.webp","assets/sonido/KUERL_Bajo_10_03.webp","assets/sonido/KUERL_Bajo_10_04.webp"],"active":true},
 {"id":"DW-SON-024","name":"Pioneer TS-550AL","category":"Cornetas y medios","image":"assets/sonido/Pioneer-TS-550AL-01.webp","images":["assets/sonido/Pioneer-TS-550AL-01.webp","assets/sonido/Pioneer-TS-550AL-02.webp","assets/sonido/Pioneer-TS-550AL-03.webp","assets/sonido/Pioneer-TS-550AL-04.webp"],"active":true}
 ]};
+ globalThis.DW_CATALOG_METADATA = CATALOG;
