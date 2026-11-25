@@ -75,3 +75,5 @@ footer{background:var(--black);color:#fff;padding:30px max(5vw,20px);display:fle
 
 /* Categorías centradas sin perder desplazamiento horizontal */
 .categoryRail{justify-content:safe center}
+
+.catalogPager{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin:24px 0 40px;padding:8px 0}.catalogPager[hidden]{display:none}.catalogPager button{min-width:44px;min-height:44px;border:1px solid #888;border-radius:9px;background:transparent;color:inherit;cursor:pointer;font:inherit}.catalogPager button[aria-current=page]{background:#FF7900;color:#111;border-color:#FF7900;font-weight:bold}.catalogPager button:disabled{opacity:.35;cursor:default}.catalogPager .pageArrow{font-size:30px;line-height:1}.pageNumbers{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.pageStatus{display:none}#products{touch-action:pan-y pinch-zoom;scroll-margin-top:16px}@media(max-width:600px){.catalogPager .pageNumbers{display:none}.pageStatus{display:inline}.catalogPager{gap:24px;padding-right:40px}.catalogPager .pageArrow{width:52px;height:52px}}
