@@ -1,6 +1,6 @@
 const CATALOG = {
 categories:["Todos","Muñecas","Otros juguetes","Sonido para carros","Amplificadores de casa"],
-subcategories:{"Muñecas":["Muñecas Reborn interactivas","Muñecas realistas no interactivas"],"Sonido para carros":["Reproductores","Cornetas y medios","Amplificadores","Bajos","Procesadores y accesorios","Combos de sonido"]},
+subcategories:{"Muñecas":["Muñecas Reborn interactivas","Muñecas realistas no interactivas"],"Sonido para carros":["Reproductores","Reproductor + adaptador de tablero","Cornetas y medios","Amplificadores","Bajos","Procesadores y accesorios","Combos de sonido"]},
 products:[
 {id:"PORT-INT",name:"Muñecas Reborn interactivas",category:"Muñecas Reborn interactivas",image:"assets/Portada_Munecas_Rigo_Envio_Gratis.png",collection:true,active:true},
 {id:"DW-REB-001",name:"Muñeca Reborn interactiva · Modelo 1",category:"Muñecas Reborn interactivas",price:80,image:"assets/Munecas_Rigo_Imagen_1.png",delivery:"Delivery gratis solo en Maracaibo",active:true},
@@ -51,6 +51,6 @@ products:[
 {"id":"DW-SON-028","name":"EXPERT Electronics X6 AIR","category":"Procesadores y accesorios","image":"assets/sonido/EXPERT-X6-AIR-01.webp","images":["assets/sonido/EXPERT-X6-AIR-01.webp","assets/sonido/EXPERT-X6-AIR-02.webp","assets/sonido/EXPERT-X6-AIR-03.webp","assets/sonido/EXPERT-X6-AIR-04.webp","assets/sonido/EXPERT-X6-AIR-05.webp"],"active":true},
 {"id":"DW-SON-029","name":"STAR AUDIO X4-31BA","category":"Procesadores y accesorios","image":"assets/sonido/STAR-AUDIO-X4-31BA-01.webp","images":["assets/sonido/STAR-AUDIO-X4-31BA-01.webp","assets/sonido/STAR-AUDIO-X4-31BA-02.webp","assets/sonido/STAR-AUDIO-X4-31BA-03.webp","assets/sonido/STAR-AUDIO-X4-31BA-04.webp","assets/sonido/STAR-AUDIO-X4-31BA-05.webp","assets/sonido/STAR-AUDIO-X4-31BA-06.webp"],"active":true},
 {"id":"DW-SON-030","name":"SounDigital 2000.4 EVO5 2 Ohm","category":"Amplificadores","image":"assets/sonido/SounDigital-2000-4-EVO5-2Ohm-01.webp","images":["assets/sonido/SounDigital-2000-4-EVO5-2Ohm-01.webp","assets/sonido/SounDigital-2000-4-EVO5-2Ohm-02.webp"],"active":true},
-{"id":"DW-SON-031","name":"Pantalla Android CHERY X1","category":"Reproductores","image":"assets/sonido/CHERY-X1-01.webp","images":["assets/sonido/CHERY-X1-01.webp"],"active":true}
+{"id":"DW-SON-031","name":"Pantalla Android CHERY X1","category":"Reproductor + adaptador de tablero","image":"assets/sonido/CHERY-X1-01.webp","images":["assets/sonido/CHERY-X1-01.webp"],"active":true}
 ]};
  globalThis.DW_CATALOG_METADATA = CATALOG;
